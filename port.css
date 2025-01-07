@@ -120,11 +120,13 @@
     left: 15px;
 }
 
-.tableau {
+.tableau iframe {
+    width: 100%;      
+    max-width: 1200px;    
+    height: 500px;        
+    margin: 20px auto;
     position: absolute;
-    top: 0px;     /* Par exemple, 100px depuis le haut de la page ou du parent */
-    left: -100px;    /* 250px depuis la gauche */
-    padding: 150px;   
-    margin: 0;
-    text-align: left;
-  }
+    left: 360px;
+    top: 200px;  /* Descend l'iframe de 300px depuis le haut */
+    padding: 0;  /* Retire le padding inutile */
+}
