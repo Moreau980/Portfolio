@@ -1,0 +1,108 @@
+.conteneur {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+  
+.carre {
+    width: 1920px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.651);
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.carre1 {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+    position: absolute;
+    top: 300px;
+    left: 35px;
+}
+
+.pied-page {
+    width: 1920px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.651);
+
+    position: absolute; 
+    bottom: 0px;
+    left: 0px;
+}
+
+.p {
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 20px;
+    position: absolute;
+    top: 160px;
+}
+
+.p1 {
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.bouton {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 70px;
+    left: 400px;
+}
+
+.bouton:hover {
+    color: cyan;
+}
+
+.bouton1 {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 70px;
+    left: 550px;
+}
+
+.bouton1:hover {
+    color: cyan;
+}
+
+.text {
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+    position: absolute;
+    left: 15px;
+}
+
+.lien-titre{
+    display: inline;
+    text-decoration: none;
+    color: black;
+}
+
+.lien-titre:hover{
+    color: cyan;
+}
+
+.para {
+    color: black;
+    font-family: Arial;
+    position: absolute;
+    top: 90px;
+    left: 15px;
+}
