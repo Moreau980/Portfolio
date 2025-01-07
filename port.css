@@ -81,6 +81,19 @@
     color: cyan;
 }
 
+.bouton2 {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 70px;
+    left: 1250px;
+}
+
+.bouton2:hover{
+    color: cyan;
+}
+
 .text {
     color: black;
     font-weight: bold;
@@ -106,3 +119,12 @@
     top: 90px;
     left: 15px;
 }
+
+.tableau {
+    position: absolute;
+    top: 0px;     /* Par exemple, 100px depuis le haut de la page ou du parent */
+    left: -100px;    /* 250px depuis la gauche */
+    padding: 150px;   
+    margin: 0;
+    text-align: left;
+  }
